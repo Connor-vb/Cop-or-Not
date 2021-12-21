@@ -1,54 +1,39 @@
 * {
+box-sizing: inherit;
 padding: 0;
 margin: 0;
 }
 
 body {
-    display: grid;
-    height: 100vh;
+    display: in-block;
+    min-height: 100vh;
+    position: relative;
     background-color: whitesmoke;
+    line-height: 1.9rem;
 }
 
 .header {
-    padding: 20px;
+    font-size: 30px;
     font-family: 'Major Mono Display', serif;
     color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    align-items: center;
+    border-bottom: 2px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top:0px;
+    width: 100%;
+    z-index: 2;
 }
 
 .header span.V{
     color: brown;
 }
 
-.header div.button1 button.LOGIN{
-    float:right;
-}
 
-div.button1 button.LOGIN{
-    display: inline-block;
-    font-size: 10px;
-    background-color: #e79b85;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    margin: 2px 2px;
-    cursor: pointer;
-    font-family: 'Arial Narrow', sans-serif;
-    font-variant: small-caps;
-}
 
-.header div.button2 button.SIGNUP{
-    float:right;
-}
-
-div.button2 button.SIGNUP {
-    display: inline-block;
-    font-size: 10px;
-    background-color: #9b898f;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    margin: 2px 2px;
-    cursor: pointer;
-    font-family: 'Arial Narrow', sans-serif;
-    font-variant: small-caps;
-}
