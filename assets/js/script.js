@@ -43,6 +43,7 @@ const EVENTS = {
   SKIP: 'skip',
   REJECT: 'reject'
 }
+
 export default {
   name: 'SwipeableCards',
   components: { Vue2InteractDraggable },
@@ -107,6 +108,7 @@ export default {
 
 {/* <script>
 import SwipeableCards from './components/SwipeableCards.vue'
+
 export default {
   name: 'app',
   components: { SwipeableCards }
