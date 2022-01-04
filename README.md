@@ -16,7 +16,7 @@ The Crypto market has gained traction and expanded in recent years, with FOMO in
 ## Installation 
 Clone down the Github repository and ensure node and express modules are installed. Open starting.html in browser to run application. 
 
-###
+### Dependencies
 *
 
 ## Usage 
