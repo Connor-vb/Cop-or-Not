@@ -1,4 +1,34 @@
-# projectTwo
+# Cop or Not
+
+
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+
+## Description 
+
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Installation 
+
+## Usage 
+
+## License 
+This project is license under MIT
+
+## Contributing 
+cartersupple
+Blackcat-Tinkerngineers
+NateBatchelder
+Connor-vb
+## Tests
+
+## Questions
 
 ## Requirements
 Your project should fulfill the following requirements:
