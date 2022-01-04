@@ -15,6 +15,10 @@ The Crypto market has gained traction and expanded in recent years, with FOMO in
 
 ## Installation 
 Clone down the Github repository and ensure node and express modules are installed. Open starting.html in browser to run application. 
+
+###
+*
+
 ## Usage 
 Users will enter their log in information or sign up for an account. Once an account has been created, they will have access to browse NFT projects and rate them "Cop" or "Not." The liked NFTS will be displayed in their user profile to come back to. The most liked or "Copped" NFTs will be displayed first on the homepage of "Cop or Not." 
 ## License 
