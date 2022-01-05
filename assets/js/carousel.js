@@ -1,15 +1,28 @@
 // todo add all relative paths to this array
 // todo make sure you rename before this!!!
-var allImages =["assets/images/carousel/Screen Shot 2022-01-04 at 8.54.07 PM.png"];
+var allImages =["assets/images/carousel/Screen Shot 2022-01-04 at 8.54.07 PM.png", "assets/images/carousel/Screen Shot 2022-01-04 at 8.54.23 PM.png", "assets/images/carousel/Screen Shot 2022-01-04 at 8.54.28 PM.png"];
 
 
     // could have two img folders
     
     
+    // function to replace current image with new random image from allImages array
+
+function replaceImage() {
+    var randomImage = allImages[Math.floor(Math.random() * allImages.length)];
+    document.getElementById("carousel").src = randomImage;
+    
+}   
+
+
+
+
+
+
     // function
     function newImages() {
         // math random
-        Math.floor(Math.random() * allImages.length);
+        Math.floor(Math.random()*allImages.length);
         
         
         // target buttons
