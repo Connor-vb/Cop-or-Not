@@ -7,7 +7,16 @@
 
     <title>Cop-or-Not</title>
 
-    <link href="assets/css/style2.css" rel="stylesheet"> 
+    <!-- stylesheet -->
+    <link href="assets/css/style2.css" rel="stylesheet">
+    
+    <!-- handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+      <h1>{{title}}</h1>
+      <p>{{body}}</p>
+      <a href="/html/swipe2.html">Swipe</a>
+    </script>
   </head>
 
   <body>
@@ -38,15 +47,8 @@
     </header>
 
     <article id="introduction">
-      <section class="container">
-        <h1>Welcome to Cop-or-Not</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus vel
-          sit numquam, ipsum ad est eos voluptatem possimus architecto, ullam
-          exercitationem voluptate. Aliquid, quasi rem! Voluptate non quod
-          assumenda maiores suscipit corporis quisquam itaque omnis.
-        </p>
-        <a href="/html/login2.html">Login</a>
+      <section id="information" class="container">
+        
       </section>
     </article>
 
@@ -55,6 +57,6 @@
     </footer>
 
     <!-- !!! what are these and do we need them on all pages?! -->
-    <script src="public/main.js"></script>
+    <script src="./no2.js"></script>
   </body>
 </html>
