@@ -1,158 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css"
-    />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
     <link rel="bootstrapstylesheet" href="./assets/css/profile.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/image-grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/image-grid.css">
     <title>Cop or Not</title>
-  </head>
-  <header class="sticky-top">
+</head>
+
+
+<!-- this is a test.  test. -->
+<header class="sticky-top">
     <div class="d-flex"></div>
     <div class="row"></div>
     <nav class="navbar p-2 navbar-light bg-transparent">
-      <!--Profile dropdown-->
-      <div class="btn-group">
-        <button
-          type="button"
-          class="btn p-2 btn-success dropdown-toggle"
-          id="dropdownMenuOffset"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          data-offset="10,20"
-        >
-          Profile:
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-          <a class="dropdown-item" data-toggle="dropdown" href="#"
-            >Online Status:<span id="online-status"></span
-          ></a>
-          <button
-            class="dropdown-item btn btn-secondary"
-            data-toggle="dropdown"
-            id="msg-button"
-          >
-            Message
-          </button>
-          <div class="dropdown-divider"></div>
-          <button
-            class="dropdown-item btn btn-primary"
-            data-toggle="dropdown"
-            id="follow-button"
-          >
-            Follow
-          </button>
+
+
+        <!--Profile dropdown-->
+        <div class="btn-group">
+            <button type="button" class="btn p-2 btn-success dropdown-toggle" id="dropdownMenuOffset"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">Profile:</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                <a class="dropdown-item" data-toggle="dropdown" href="#">Online Status:<span
+                        id="online-status"></span></a>
+                <button class="dropdown-item btn btn-secondary" data-toggle="dropdown" id="msg-button">Message</button>
+                <div class="dropdown-divider"></div>
+                <button class="dropdown-item btn btn-primary" data-toggle="dropdown" id="follow-button">Follow</button>
+
+            </div>
         </div>
-      </div>
-      <form class="form-inline ml-auto p-2">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
+
+        <form class="form-inline ml-auto p-2">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </nav>
-  </header>
-  <!--CHELSIE START-->
-  <div class="container-fluid">
+
+</header>
+
+<!--CHELSIE START-->
+<div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-        <div class="sidebar-sticky">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="nav-brand"></a>
-              <img
-                src="./assets/images/logo-2.svg"
-                height="250"
-                alt="Cop or Not"
-              />
-              <a class="nav-link active text-dark" href="#">
-                <img src="./assets/images/home.svg" alt="home" /> Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
-                <img src="./assets/images/globe.svg" alt="explore" /> Explore
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
-                <img src="./assets/images/activity.svg" alt="stats" /> Stats
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">
-                <img src="./assets/images/briefcase.svg" alt="products" />
-                Products
-              </a>
-            </li>
-          </ul>
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nav-brand"></a>
+                        <img src="./assets/images/logo-2.svg" height="250" alt="Cop or Not">
+                        <a class="nav-link active text-dark" href="#">
+                            <img src="./assets/images/home.svg" alt="home">
+                            Home 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">
+                            <img src="./assets/images/globe.svg" alt="explore">
+                            Explore
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">
+                            <img src="./assets/images/activity.svg" alt="stats">
+                            Stats
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">
+                            <img src="./assets/images/briefcase.svg" alt="products">
+                            Products
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+        </nav>
+  
+
+
+        <body>   
+            <main role="main" class="col-sm-3 ml-sm-auto col-lg-10 pt-3 px-4">
+                <div
+                    class="d-flex align-items-center pb-2 mb-3 border-bottom">
+                    <h1 class="text-muted">Dashboard</h1>
+                </div>
+
+            <div class="grid-container">
+                <div class="item level-2">
+                    <img src="./assets/images/pexels-charles-parker-5859654.jpg">
+                </div>
+                <div class="item level-3">
+                    <img src="./assets/images/pexels-harrison-haines-9802275.jpg">
+                </div>
+                <div class="item level-4">
+                    <img src="./assets/images/pexels-katerina-holmes-5911012.jpg">
+                </div>
+                <div class="item level-5">
+                    <img src="./assets/images/pexels-katerina-holmes-5911013.jpg">
+                </div>
+                <div class="item level-1">
+                    <img src="./assets/images/pexels-monstera-5635101.jpg">
+                </div>
+                <div class="item level-2">
+                    <img src="./assets/images/pexels-stefan-doncean-7215195.jpg">
+                </div>
+                <div class="item level-3">
+                    <img src="./assets/images/pexels-đàng-thiện-thanh-tài-6331533.jpg">
+                </div>
+                <div class="item level-4">
+                <img src="./assets/images/pexels-karolina-grabowska-5422606.jpg">
+                </div>
+                </div>
+            </main>
+        </body>
         </div>
-      </nav>
-      <body>
-        <main role="main" class="col-sm-3 ml-sm-auto col-lg-10 pt-3 px-4">
-          <div class="d-flex align-items-center pb-2 mb-3 border-bottom">
-            <h1 class="text-muted">Dashboard</h1>
-          </div>
-          <div class="grid-container">
-            <div class="item level-2">
-              <img src="./assets/images/pexels-charles-parker-5859654.jpg" />
-            </div>
-            <div class="item level-3">
-              <img src="./assets/images/pexels-harrison-haines-9802275.jpg" />
-            </div>
-            <div class="item level-4">
-              <img src="./assets/images/pexels-katerina-holmes-5911012.jpg" />
-            </div>
-            <div class="item level-5">
-              <img src="./assets/images/pexels-katerina-holmes-5911013.jpg" />
-            </div>
-            <div class="item level-1">
-              <img src="./assets/images/pexels-monstera-5635101.jpg" />
-            </div>
-            <div class="item level-2">
-              <img src="./assets/images/pexels-stefan-doncean-7215195.jpg" />
-            </div>
-            <div class="item level-3">
-              <img
-                src="./assets/images/pexels-đàng-thiện-thanh-tài-6331533.jpg"
-              />
-            </div>
-            <div class="item level-4">
-              <img
-                src="./assets/images/pexels-karolina-grabowska-5422606.jpg"
-              />
-            </div>
-          </div>
-        </main>
-      </body>
-    </div>
-  </div>
-  <script
-    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="./assets/js/script.js"></script>
+        </div>
+
+
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+                integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script src="./assets/js/script.js"></script>
+       
+
 </html>
