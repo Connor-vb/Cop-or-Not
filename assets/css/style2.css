@@ -75,6 +75,8 @@ nav {
 
 #introduction {
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 25%;
 }
 
 #introduction h1 {
@@ -108,10 +110,11 @@ nav {
   margin-bottom: 15%;
 }
 
-.instrument {
+.nftIcon {
+  background: white;
+  opacity: 0.9;
   width: 90%;
   overflow: auto;
-
 }
 
 .image {
