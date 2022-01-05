@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Cop-or-Not</title>
+  
+    <!-- the following links are from Chelsie -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Cop or Not</title>
+    
+    <!-- handlebars -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    
 </head>
 
 
 <!-- todo this needs to become bootstrap -->
 <body>
+
+    <header>
+        <!-- todo: this needs to be styled using boostrap?! -->
+      <section class="container">
+        <!-- are we using a class for styling here? -->
+        <!-- <h1 class="branding">Cop-or-Not</h1> -->
+
+        <nav>
+          <ul class="navbar">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="login2">Login</a>
+            </li>
+            <li class="current">
+              <a href="swipe2.html">Swipe</a>
+            </li>
+            <li>
+              <a href="contact2.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+      </section>
+    </header>
+
+
 <!-- container for page -->
 <div class="container px-4">
     <!-- top row -->
@@ -47,7 +81,11 @@
   </div>
 </div>
 
+    <footer>
+      <p>&copy; Group Six</p>
+    </footer>
    
+    <!-- !!! what are these and do we need them on all pages?! -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./assets/js/script.js"></script>

@@ -1,3 +1,6 @@
+
+// ??? what are all of these variables?
+
 // Log in start
 var express = require('express');
 var path = require('path');
