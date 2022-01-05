@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Cop-or-Not</title>
 
-    <link href="/assets/css/style2.css" rel="stylesheet">
+    <link href="/assets/css/style2.css" rel="stylesheet" />
   </head>
 
+
+  
   <body>
     <header>
       <!-- todo: this needs to be styled using boostrap?! -->
       <section class="container">
+
+        <nav class="navbar navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+              Bootstrap
+            </a>
+          </div>
+        </nav>
         <!-- are we using a class for styling here? -->
         <!-- <h1 class="branding">Cop-or-Not</h1> -->
 
@@ -37,12 +48,86 @@
       </section>
     </header>
 
-    <article id="showcase">
-      <section class="container">
-        
+    <!--sidebar-->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="nav-brand"></a>
+                <img
+                  src="./assets/images/logo-2.svg"
+                  height="250"
+                  alt="Cop or Not"
+                />
+                <a class="nav-link active text-dark" href="#">
+                  <img src="./assets/images/home.svg" alt="home" />
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                  <img src="./assets/images/globe.svg" alt="explore" />
+                  Explore
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                  <img src="./assets/images/activity.svg" alt="stats" />
+                  Stats
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">
+                  <img src="./assets/images/briefcase.svg" alt="products" />
+                  Products
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      </section>
-    </article>
+        <body>
+          <main role="main" class="col-sm-3 ml-sm-auto col-lg-10 pt-3 px-4">
+            <div class="d-flex align-items-center pb-2 mb-3 border-bottom">
+              <h1 class="text-muted">Dashboard</h1>
+            </div>
+
+            <div class="grid-container">
+              <div class="item level-2">
+                <img src="./assets/images/pexels-charles-parker-5859654.jpg" />
+              </div>
+              <div class="item level-3">
+                <img src="./assets/images/pexels-harrison-haines-9802275.jpg" />
+              </div>
+              <div class="item level-4">
+                <img src="./assets/images/pexels-katerina-holmes-5911012.jpg" />
+              </div>
+              <div class="item level-5">
+                <img src="./assets/images/pexels-katerina-holmes-5911013.jpg" />
+              </div>
+              <div class="item level-1">
+                <img src="./assets/images/pexels-monstera-5635101.jpg" />
+              </div>
+              <div class="item level-2">
+                <img src="./assets/images/pexels-stefan-doncean-7215195.jpg" />
+              </div>
+              <div class="item level-3">
+                <img
+                  src="./assets/images/pexels-đàng-thiện-thanh-tài-6331533.jpg"
+                />
+              </div>
+              <div class="item level-4">
+                <img
+                  src="./assets/images/pexels-karolina-grabowska-5422606.jpg"
+                />
+              </div>
+            </div>
+          </main>
+        </body>
+      </div>
+    </div>
 
     <footer>
       <p>&copy; Group Six</p>
