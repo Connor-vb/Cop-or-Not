@@ -1,6 +1,6 @@
 const context = {
-  title: "",
-  body: "lorem ipsum dolor sit amet",
+  title: "The Tinder for NFTs",
+  body: "Click to begin",
   instruments: [
     {
       image:
