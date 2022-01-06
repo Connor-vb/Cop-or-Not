@@ -1,5 +1,5 @@
 const context = {
-  title: "Lorem Ipsum",
+  title: "",
   body: "lorem ipsum dolor sit amet",
   instruments: [
     {
