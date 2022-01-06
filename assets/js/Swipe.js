@@ -69,23 +69,23 @@ console.log("hey guys I work")
    var imageArray = [  
    {   
      //address URL of the image  
-     src: "/assets/images/pexels-charles-parker-5859654.jpg",  
+     src: "https://www.reuters.com/resizer/m2Eze1n30GaqsQDKILr2Ukc9304=/631x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7GBCHQUCEROJDPEVYQW7XG7VAE.jpg",  
      //size for the image to be display on webpage  
      width: "200",  
      height: "200"  
    },   
    {  
-     src: "/assets/images/pexels-đàng-thiện-thanh-tài-6331533.jpg",  
+     src: "https://lh3.googleusercontent.com/-2lJuLt70dQwg1OHy1TfKt3Wsc0zO6hSKHxsRlBDLIOsanPq9TF-e91oCrBivatUX-g3oFUFwf7FnhVIqTV3CB6fJcJ2mbdo1W5KuQ",  
      width: "200",  
      height: "200"  
    },   
    {  
-     src: "https://wi.wallpapertip.com/wsimgs/156-1564140_free-puppy-wallpapers-for-computer-wallpaper-cave-cute.jpg",  
+     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZfngM3Hlhl1dEiDLa8g-V8Es242YzfwMIIL4BQE9FJmar_UrdFBzaGoTvscPVTavUFI&usqp=CAU",  
      width: "200",  
      height: "200"  
    },  
    {  
-     src: "https://wi.wallpapertip.com/wsimgs/156-1566650_cute-puppies-desktop-wallpaper-cute-puppies.jpg",  
+     src: "https://lh3.googleusercontent.com/zXcV_BJqVPf0IZZUrffjKD_cZpgFzYD8jsUYgZwGzhyhTF5hmQrOGMQQ7mEEjNUujRvtLeemeO2bpl4HL2uuoLrLMwpWmAZCgsU66A=w1400-k",  
      width: "200",  
      height: "200"  
     } ];  
