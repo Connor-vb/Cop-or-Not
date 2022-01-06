@@ -5,23 +5,23 @@ function displayRandomImages()
    var imageArray = [  
    {   
      //address URL of the image  
-     src: "https://wi.wallpapertip.com/wsimgs/15-155208_desktop-puppy-wallpaper-hd.jpg",  
+     src: "https://publish.one37pm.net/wp-content/uploads/2021/02/punks.png?fit=600%2C600",  
      //size for the image to be display on webpage  
      width: "200",  
      height: "200"  
    },   
    {  
-     src: "https://wi.wallpapertip.com/wsimgs/156-1564365_golden-retriever-puppy-desktop-wallpaper-desktop-wallpaper-puppy.jpg",  
+     src: "https://publish.one37pm.net/wp-content/uploads/2021/02/EwKNWFRXIAA94V4.png?fit=600%2C600",  
      width: "200",  
      height: "200"  
    },   
    {  
-     src: "https://wi.wallpapertip.com/wsimgs/156-1564140_free-puppy-wallpapers-for-computer-wallpaper-cave-cute.jpg",  
+     src: "https://lh3.googleusercontent.com/1odSUagF0-kjM8wJbY-oyNjyZWVvQWxmpRmFms92PWb_upzODfMOagpuv5rdl_5livW8svL5d3wgA0ciCCic8gpJu0xQCkDfMK6S=w600",  
      width: "200",  
      height: "200"  
    },  
    {  
-     src: "https://wi.wallpapertip.com/wsimgs/156-1566650_cute-puppies-desktop-wallpaper-cute-puppies.jpg",  
+     src: "https://www.larvalabs.com/cryptopunks/cryptopunk2460.png",  
      width: "200",  
      height: "200"  
     } ];  
@@ -112,7 +112,7 @@ console.log("hey guys I work")
   var newImage = getRandomNum(0, newArray.length - 1);  
    
   // remove the previous images  
-  var images = document.getElementsByTagName('imgTwo');  
+  var images = document.getElementsByTagName('img');  
   var l = images.length;  
   for (var p = 0; p < l; p++) {  
      images[0].parentNode.removeChild(images[0]);  
