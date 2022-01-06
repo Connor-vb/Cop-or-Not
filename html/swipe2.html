@@ -18,11 +18,15 @@
 
     <!-- personal stylesheet -->
     <link href="/assets/css/style2.css" rel="stylesheet">
+  </script>
+  <link rel="stylesheet" href="assets/css/swipe2.css"/>
+  <script src="assets/js/Swipe.js.js"></script>
   </head>
+
 
   <!-- todo this needs to become bootstrap -->
   <body>
-    <header>
+    <header class="row">
       <!-- todo: this needs to be styled using boostrap?! -->
       <section class="container">
         <!-- are we using a class for styling here? -->
@@ -47,57 +51,36 @@
         </nav>
       </section>
     </header>
+<div class ="container ">
+<div class ="row justify-content">
+    <!--  -->
+    <div class="col-5" id="left-green"><button onclick="displayRandomImages()"class="btn btn-success">Left green</button>
+    
+    </div>
 
-    <article>
-      <!-- container for page -->
-      <div class="container px-4">
-        <!-- top row -->
-        <div class="row gx-5">
-          <!-- instructions and button -->
-          <div class="col">
+    <div class="col-5" id="right-red"><button onclick="displayRandomImagesTwo()" class="btn btn-danger">Right red</button>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
             <!-- button -->
             <button
               onclick="displayRandomImages()"
               type="button"
               id="btn1"
               class="btn btn-lg btn-primary btn-block"
-            ></button>
+            >Start</button>
 
             <!-- instructions -->
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
 
-        <!-- second row -->
-        <div class="row gx-5">
-          <!-- Green col/ left-->
-          <div class="col" onclick="displayRandomImages()">
-            <button
-              onclick="displayRandomImages()"
-              type="button"
-              id="btn2"
-              class="btn btn-lg btn-primary btn-block"
-            >
-              <img src="assets/images/carousel/100.png" />
-            </button>
-          </div>
-
-          <!-- Red col/ right -->
-          <div class="col">
-            <button
-              onclick="displayRandomImages()"
-              type="button"
-              id="btn3"
-              class="btn btn-lg btn-primary btn-block"
-            >
-              <img src="assets/images/carousel/200.png" />
-            </button>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <footer>
+    
+    
+    
+        <footer>
       <p>&copy; Group Six</p>
     </footer>
 
@@ -108,8 +91,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="./assets/js/script.js"></script>
-    <!-- <script src="assets/js/Swipe.js"></script> -->
-    <script src="assets/js/carousel.js"></script>
+    <script src="/assets/js/Swipe.js"></script>
   </body>
 </html>
