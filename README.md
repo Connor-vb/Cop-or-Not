@@ -33,6 +33,10 @@ This project is license under MIT
 
 
 ## Links
+GitHub:
+https://connor-vb.github.io/Cop-or-Not/
+
+Heroku:
 
 
 ## Contributing 
