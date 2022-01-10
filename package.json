@@ -1,36 +1,25 @@
 {
-  "name": "projecttwo",
+  "name": "login-tutorial",
   "version": "1.0.0",
-  "description": "Account & Swipe based social media app for NFT's",
-  "main": "login.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NateBatchelder/projectTwo.git"
-  },
-  "author": "Connor, Nate, Chelsie, Carter",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.1",
-    "connect-flash": "^0.1.1",
-    "cookie-parser": "^1.4.6",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
-    "express-messages": "^1.0.1",
     "express-session": "^1.17.2",
-    "express-validator": "^6.14.0",
-    "handlebars": "^4.7.7",
-    "mongodb": "^4.2.2",
-    "mongoose": "^6.1.3",
+    "mongoose": "^6.1.5",
     "passport": "^0.5.2",
-    "passport-http": "^0.3.0",
     "passport-local": "^1.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/NateBatchelder/projectTwo/issues"
-  },
-  "homepage": "https://github.com/NateBatchelder/projectTwo#readme"
+  }
 }
