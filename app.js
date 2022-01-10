@@ -36,7 +36,7 @@ app.set("login", __dirname + "login.hbs");
 app.use(express.static(__dirname + "/public"));
 app.use(
   session({
-    secret: "pass",// process.env.SECRET,
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: { secure:false }

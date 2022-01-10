@@ -30,14 +30,14 @@ Users will enter their log in information or sign up for an account. Once an acc
 This project is license under MIT
 
 ## Screenshots
-
+![Cop-or-Not](https://user-images.githubusercontent.com/90352499/148728543-32c6919a-5a72-48a2-a236-659b253508fa.jpeg)
 
 ## Links
 GitHub:
 https://connor-vb.github.io/Cop-or-Not/
 
 Heroku:
-
+https://fast-eyrie-04954.herokuapp.com/
 
 ## Contributing 
 Chelsea Bangloy-Gonsalves
